@@ -130,3 +130,4 @@ dmypy.json
 
 # Make sure my information does not get leaked
 *.txt
+.txt
