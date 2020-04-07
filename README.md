@@ -6,7 +6,7 @@ This can be used for students in Google Classroom to make their own posts with i
 
 ## TODO
 - Adding multiple links ("How many links do you want to enter")
-- Auto upload and linking (?)
+- Auto upload and linking (Upload to a service like dropbox using an api and then posting a link to that image?)
 - Cleaning up code
 - More options in posting
 - Generating credentials and storing them securely (hashing and prompting every time)
