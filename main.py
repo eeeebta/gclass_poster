@@ -32,8 +32,11 @@ def main():
     time.sleep(4)
     driver.find_element_by_id("yDmH0d").send_keys(Keys.TAB, Keys.ENTER)
     time.sleep(3)
-    driver.find_element_by_tag_name("textarea").send_keys("hello, just testing something")
+    t = time.localtime()
+    current_time = time.strftime("%H:%M:%S", t)
 
+    driver.find_element_by_tag_name("textarea").send_keys("a meme a day keeps the collegeboard away\n\ninfo for me cause i built a bot that posts in google classroom automatically (automated "
+                                                          f"post; time posted: {current_time})")
     time.sleep(1)
     upcoming_amount = len(driver.find_elements_by_class_name("hrUpcomingAssignmentGroup"))
     tab_amount = 10 + upcoming_amount
